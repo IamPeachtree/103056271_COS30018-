@@ -179,7 +179,7 @@ def data_process(company, data_start, data_end, features, split_by_date = False,
 
 x_train, x_test, y_train, y_test, actual_prices, model_inputs  = data_process(COMPANY, TRAIN_START, TRAIN_END, FEATURES, split_by_date = False, 
                  split_date_from = "2022-3-7", to_shuffle = False,save= True, test_size = 0.3, scales = True, 
-                 load_date = False, load_csv_file_name ="dataset.csv")
+                 load_data = False, load_csv_file_name ="dataset.csv")
 
 
 
